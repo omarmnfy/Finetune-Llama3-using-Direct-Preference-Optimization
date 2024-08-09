@@ -16,7 +16,7 @@ Source: [Wikipedia's RLHF Article](https://en.wikipedia.org/wiki/Reinforcement_l
 <p align="center">
   <img src="https://github.com/user-attachments/assets/32e3078b-0af8-4c06-827f-1a6c495c4166" alt="SFT_Diagram">
 </p>
-<p align="center">
+<p align="right">
   Source: <a href="https://neo4j.com/developer-blog/fine-tuning-retrieval-augmented-generation/">Neo4j</a>
 </p>
 
