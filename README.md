@@ -64,7 +64,7 @@ For this finetuning project, Brev.dev sources an NVIDIA A100 GPU, a state-of-the
 ## Finetuning Process Steps
 
 <img width="1460" alt="Finetuning Process Steps" src="https://github.com/user-attachments/assets/8eecb4f8-8a17-41d9-852a-87ceaab545a0">
-Image: Creating a [Brev.dev](https://brev.dev/)'s Launchable: Setting Compute (GPU of Choice), Container, and File (In this Project's Context, Add the .ipynb File Github URL) Settings
+Image: Creating a [Brev.dev](https://brev.dev/) 's Launchable: Setting Compute (GPU of Choice), Container, and File (In this Project's Context, Add the .ipynb File Github URL) Settings
 
 The fine-tuning process involves several key steps facilitated by Brev.dev's services. First, users need to ensure access to the Llama3 model through [Hugging Face](https://huggingface.co/), which involves requesting permission to use the Meta Llama3-8B instruct model. Once access is granted, Brev.dev handles the installation of essential software, including Python, CUDA, and other machine learning libraries required for the fine-tuning process.
 
