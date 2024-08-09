@@ -91,6 +91,9 @@ The finetuning process empowered the Llama3 model to perform more effectively in
 
 ## GPU Performance
 
-<img width="1389" alt="GPU Performance" src="https://github.com/user-attachments/assets/db9741bd-7b16-4d67-970e-eea7cb03b103">
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/db9741bd-7b16-4d67-970e-eea7cb03b103" alt="GPU Performance">
+</p>
+
 
 The GPU Memory Allocated (bytes) graph provides a clear depiction of the dynamic memory management during the operation of our model. Initially, the graph shows a stable, high level of memory allocation, indicating that the GPU is fully utilized, supporting intense computational tasks such as data processing, model training, or inference. Approximately halfway through the monitoring period, there is a sharp and significant decline in memory usage. This sudden reduction suggests that a major computational process has completed, resulting in the deallocation of a large volume of GPU memory. Such behavior is indicative of efficient memory management and resource optimization within our system. The ability to release resources promptly after their utilization is crucial for maintaining optimal performance, especially in environments where multiple processes or tasks are executed concurrently on the same hardware. This graph not only underscores our model's capacity to manage GPU resources effectively but also highlights its scalability and readiness for deployment in varied computational settings.
