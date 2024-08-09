@@ -35,8 +35,13 @@ Reinforcement Learning with Human Feedback (RLHF) aims to address some of the sh
 
 ## Direct Preference Optimization (DPO)
 
-![DPO_Diagram](https://github.com/user-attachments/assets/d70fb572-723a-4a45-9080-c585ed0d609f)
-Source: [arXiv's Paper](https://arxiv.org/abs/2305.18290)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d70fb572-723a-4a45-9080-c585ed0d609f" alt="DPO_Diagram">
+</p>
+
+<p align="left">
+  Source: <a href="https://arxiv.org/abs/2305.18290">arXiv's Paper</a>
+</p>
 
 Direct Preference Optimization (DPO) is an innovative approach to fine-tuning large language models (LLMs) that addresses many limitations associated with traditional methods like Supervised Finetuning (SFT) and Reinforcement Learning with Human Feedback (RLHF). Unlike these methods, DPO treats the fine-tuning process as a classification task, which simplifies the model's adaptation to preferred outputs without the need for a separate reward model. In DPO, the model utilizes its own outputs as a basis for preference evaluation, creating a more stable and efficient training process.
 
@@ -52,11 +57,11 @@ Additionally, DPO addresses the lack of feedback in SFT by incorporating a prefe
 
 [Brev.dev](https://brev.dev/) is a platform that provides cloud-based infrastructure and tools for machine learning projects, making it easier for developers to access powerful hardware without the need for on-premise resources. In this project, we utilize Brev.dev to fine-tune the Llama3 model using Direct Preference Optimization (DPO). The platform simplifies the process by automating the deployment of necessary software and hardware resources, allowing users to focus on the fine-tuning task without worrying about underlying technical complexities.
 
-### GPUs and Computational Resources
+## GPUs and Computational Resources
 
 For this finetuning project, Brev.dev sources an NVIDIA A100 GPU, a state-of-the-art graphics processing unit optimized for deep learning tasks. The A100 GPU provides the necessary computational power to handle the large-scale operations required for fine-tuning the Llama3 model, which contains 8 billion parameters. By leveraging Brev.dev's infrastructure, users can seamlessly deploy their models on this powerful GPU, which supports high-performance computing with efficient parallel processing capabilities.
 
-### Finetuning Process Steps
+## Finetuning Process Steps
 
 <img width="1460" alt="Finetuning Process Steps" src="https://github.com/user-attachments/assets/8eecb4f8-8a17-41d9-852a-87ceaab545a0">
 Image: Creating a [Brev.dev](https://brev.dev/)'s Launchable: Setting Compute (GPU of Choice), Container, and File (In this Project's Context, Add the .ipynb File Github URL) Settings
@@ -67,10 +72,10 @@ Brev.dev utilizes the Low-Rank Adaptation (LoRA) technique to optimize the finet
 
 Using Brev.dev's infrastructure, users can monitor the fine-tuning process through tools like Weights and Biases, which provide insights into GPU utilization, loss metrics, and other performance indicators. The platform allows for easy experimentation and iteration, enabling users to adjust parameters and datasets to achieve the desired outcomes.
 
-### Purpose of Finetuning
+## Purpose of Finetuning
 
 The primary goal of finetuning the Llama3 model using Direct Preference Optimization (DPO) was to enhance the model's ability to generate responses that align more closely with desired preferences, making its outputs more accurate, concise, and contextually relevant. By employing DPO, the fine-tuning process aimed to improve the quality of the model's responses by adjusting its probability distribution to favor more informative and less verbose answers. This approach is particularly beneficial for applications requiring clear and targeted information delivery, such as customer support, educational content, and other domain-specific tasks where the clarity and precision of responses are critical.
-### Achievements of the Model
+## Achievements of the Model
 
 The finetuned Llama3 model successfully demonstrated several key improvements as a result of the DPO process. By using a dataset containing pairs of chosen and rejected answers, the model learned to increase the likelihood of selecting preferred answers and decrease the probability of less desired ones. This was evident in the model's ability to generate responses that were more concise and rich in relevant information. For instance, instead of providing verbose and redundant explanations, the model could deliver more direct and succinct answers, focusing on the core content requested.
 
