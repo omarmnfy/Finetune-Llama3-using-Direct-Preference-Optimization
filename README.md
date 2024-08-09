@@ -13,8 +13,13 @@ Source: [Wikipedia's RLHF Article](https://en.wikipedia.org/wiki/Reinforcement_l
 
 ## Supervised Finetuning Diagram:
 
-![SFT_Diagram](https://github.com/user-attachments/assets/32e3078b-0af8-4c06-827f-1a6c495c4166)
-Source: [Neo4j](https://neo4j.com/developer-blog/fine-tuning-retrieval-augmented-generation/) 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/32e3078b-0af8-4c06-827f-1a6c495c4166" alt="SFT_Diagram">
+</p>
+<p align="center">
+  Source: <a href="https://neo4j.com/developer-blog/fine-tuning-retrieval-augmented-generation/">Neo4j</a>
+</p>
+
 
 To introduce a feedback mechanism and enhance the model’s adaptability, Reinforcement Learning with Human Feedback (RLHF) is often employed. RLHF extends the SFT process by integrating a separate reward model that simulates human feedback. This reward model evaluates the LLM's outputs, providing scores that guide the model toward generating more preferable responses. The learning process is optimized using the Proximal Policy Optimization (PPO) algorithm, which incrementally updates the model’s policy to align with human preferences. Despite its advantages, RLHF can be unstable and challenging to replicate due to its reliance on complex reward models and extensive data requirements, making it computationally expensive and difficult to manage.
 
