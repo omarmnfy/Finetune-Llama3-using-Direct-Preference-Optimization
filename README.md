@@ -9,4 +9,4 @@ Fine-tuning is a crucial process for adapting large language models (LLMs) such 
 ## Reinforcement Learning from Human Feedback Diagram:
 
 ![RLHF_diagram](https://github.com/user-attachments/assets/1bdd84d1-8596-4732-90b0-4b10ffca5c0c)
-
+Source: [Wikipedia's RLHF Article](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback) 
