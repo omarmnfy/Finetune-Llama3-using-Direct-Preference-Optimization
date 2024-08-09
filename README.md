@@ -12,7 +12,7 @@ Fine-tuning is a crucial process for adapting large language models (LLMs) such 
   <img src="https://github.com/user-attachments/assets/1bdd84d1-8596-4732-90b0-4b10ffca5c0c" alt="RLHF_diagram">
 </p>
 <p align="left">
-  Source: <a href="[https://neo4j.com/developer-blog/fine-tuning-retrieval-augmented-generation/](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback)">Wikipedia's RLHF Article</a>
+  Source: <a href="https://neo4j.com/developer-blog/fine-tuning-retrieval-augmented-generation/](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback">Wikipedia's RLHF Article</a>
 </p>
 
 ## Supervised Finetuning Diagram:
